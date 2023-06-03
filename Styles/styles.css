@@ -53,7 +53,7 @@ section > div {
 }
 
 #deliverysSection {
-  background-image: url(/Img/delivery.png);
+  background-image: url(../Img/delivery.png);
   background-size: cover;
 }
 
