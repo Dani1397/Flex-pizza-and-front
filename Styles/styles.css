@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300px;
+  background: #E5E5E5;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: #222222;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-list {
+  list-style: none;
+  display: flex;
+  gap: 2vw;
+  margin-right: 2vw;
+}
+section > div {
+  display: flex;
+}
+
+#cardSection > div {
+  display: flex;
+  margin: 10px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+  width: 50%;
+  box-shadow: 2px 2px 6px #ccc;
+  margin: 20px 0px;
+}
+
+#deliverysSection {
+  background-image: url(/Img/delivery.png);
+  background-size: cover;
+}
+
+#deliveryTitle {
+  color: #fc200c;
+  font-size: 2.35vw;
+  font-weight: 600;
+}
+
+#deliveryTitle span {
+  font-weight: 600;
+  color: white;
+}
+
+#podioTitle {
+  color: #fc200c;
+  font-size: 2.35vw;
+  font-weight: 600;
+  text-align: center;
+}
+
+#podio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+h3 {
+  line-height: 2.2;
+}
+
+ol li {
+  font-weight: 600;
+  line-height: 2.2;
+}
+
+footer {
+  background-color: #222222;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1vw;
+}
+
+#footerContain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerList {
+  list-style: none;
+  line-height: 2.2;
+}
